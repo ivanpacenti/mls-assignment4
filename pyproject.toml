@@ -1,0 +1,18 @@
+[project]
+name = "mls-assignment4"
+version = "0.1.0"
+description = "CIFAR-100 model compression assignment, parts organized independently"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "tensorflow==2.16.2",
+  "tf-keras==2.16.0",
+  "tensorflow-model-optimization==0.8.0",
+  "tensorflow-metal==1.2.0; sys_platform == 'darwin' and platform_machine == 'arm64'",
+  "numpy>=1.26,<2",
+  "matplotlib>=3.8,<4",
+  "scikit-learn>=1.4,<2",
+  "seaborn>=0.13,<1",
+  "psutil>=5.9,<8",
+  "pandas>=2,<4",
+  "np>=1.0.2",
+]
